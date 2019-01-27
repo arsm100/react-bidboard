@@ -1,16 +1,16 @@
 {
   "main.css": "/react-bidboard/static/css/main.3843a717.chunk.css",
-  "main.js": "/react-bidboard/static/js/main.43006f0a.chunk.js",
-  "main.js.map": "/react-bidboard/static/js/main.43006f0a.chunk.js.map",
+  "main.js": "/react-bidboard/static/js/main.6812f2e9.chunk.js",
+  "main.js.map": "/react-bidboard/static/js/main.6812f2e9.chunk.js.map",
   "static/css/1.f9e4c855.chunk.css": "/react-bidboard/static/css/1.f9e4c855.chunk.css",
   "static/js/1.0a3e27a9.chunk.js": "/react-bidboard/static/js/1.0a3e27a9.chunk.js",
   "static/js/1.0a3e27a9.chunk.js.map": "/react-bidboard/static/js/1.0a3e27a9.chunk.js.map",
   "runtime~main.js": "/react-bidboard/static/js/runtime~main.546fdd72.js",
   "runtime~main.js.map": "/react-bidboard/static/js/runtime~main.546fdd72.js.map",
   "static/media/loader.gif": "/react-bidboard/static/media/loader.fef1f20a.gif",
-  "static/css/main.3843a717.chunk.css.map": "/react-bidboard/static/css/main.3843a717.chunk.css.map",
   "static/css/1.f9e4c855.chunk.css.map": "/react-bidboard/static/css/1.f9e4c855.chunk.css.map",
+  "static/css/main.3843a717.chunk.css.map": "/react-bidboard/static/css/main.3843a717.chunk.css.map",
   "index.html": "/react-bidboard/index.html",
-  "precache-manifest.066fd3d56f92bdec0d8eb080a2fff55b.js": "/react-bidboard/precache-manifest.066fd3d56f92bdec0d8eb080a2fff55b.js",
+  "precache-manifest.2fdf192ef2dbcef3e4785f7cc13154c8.js": "/react-bidboard/precache-manifest.2fdf192ef2dbcef3e4785f7cc13154c8.js",
   "service-worker.js": "/react-bidboard/service-worker.js"
 }

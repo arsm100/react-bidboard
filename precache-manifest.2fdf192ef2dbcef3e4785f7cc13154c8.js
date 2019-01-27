@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "43006f0adf067573e343",
+    "revision": "6812f2e9c593d1a2dcac",
     "url": "/react-bidboard/static/css/main.3843a717.chunk.css"
   },
   {
-    "revision": "43006f0adf067573e343",
-    "url": "/react-bidboard/static/js/main.43006f0a.chunk.js"
+    "revision": "6812f2e9c593d1a2dcac",
+    "url": "/react-bidboard/static/js/main.6812f2e9.chunk.js"
   },
   {
     "revision": "0a3e27a9720b70813938",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/react-bidboard/static/media/loader.fef1f20a.gif"
   },
   {
-    "revision": "581c6325b471e37cc340dddbcc3975bb",
+    "revision": "2fd7dd6162d5019303e7ef437d8d459f",
     "url": "/react-bidboard/index.html"
   }
 ];
