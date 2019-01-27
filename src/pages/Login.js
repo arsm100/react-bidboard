@@ -23,7 +23,7 @@ export default class Login extends Component {
         e.preventDefault()
         const validateEmail = EmailValidator.validate(this.state.emailValue)
         if (validateEmail){
-            axios.post('http://localhost:5000/api/v1/login', {
+            axios.post('https://bidboard.herokuapp.com/api/v1/login', {
                 email: this.state.emailValue,
                 password: this.state.passwordValue
               })

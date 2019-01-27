@@ -52,7 +52,7 @@ export default class DropFile extends Component {
 
         axios({
             method: 'post',
-            url: 'http://127.0.0.1:5000/api/v1/media/upload',
+            url: 'https://bidboard.herokuapp.com/api/v1/media/upload',
             headers: {
                 "Content-Type": 'multipart/form-data'
             },

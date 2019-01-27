@@ -25,7 +25,7 @@ export default class SignUp extends Component {
         e.preventDefault()
         axios({
             method: 'post',
-            url: 'http://127.0.0.1:5000/api/v1/users/create',
+            url: 'https://bidboard.herokuapp.com/api/v1/users/create',
             headers: {
                 'content-type': 'application/json',
             },

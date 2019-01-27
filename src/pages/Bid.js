@@ -30,7 +30,7 @@ export default class Bid extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:5000/api/v1/billboards/')
+        axios.get('https://bidboard.herokuapp.com/api/v1/billboards/')
             .then(({ data }) => {
                 console.log(data.all_billboards);
 
@@ -47,7 +47,7 @@ export default class Bid extends Component {
     }
 
     updateParent = () => {
-        axios.get('http://localhost:5000/api/v1/billboards/')
+        axios.get('https://bidboard.herokuapp.com/api/v1/billboards/')
             .then(({ data }) => {
                 const obj = (this.state.billboards).find(o => o.location === this.state.selected.location)
                 this.setState(
@@ -60,11 +60,11 @@ export default class Bid extends Component {
             .catch(error => {
                 console.log('ERROR: ', error);
             })
-        }
+    }
 
     handleSelected = (billboard) => {
         console.log(billboard);
-        
+
         this.setState({
             selected: billboard
         })

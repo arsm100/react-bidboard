@@ -33,7 +33,7 @@ export default class SelectedBillboard extends Component {
         this.generate_client_token()
         axios({
             method: 'get',
-            url: 'http://127.0.0.1:5000/api/v1/media/me',
+            url: 'https://bidboard.herokuapp.com/api/v1/media/me',
             headers: {
                 'content-type': 'multipart/form-data',
                 'authorization': `Bearer ${localStorage.jwt}`
@@ -124,7 +124,7 @@ export default class SelectedBillboard extends Component {
     generate_client_token = () => {
         axios({
             method: 'get',
-            url: 'http://127.0.0.1:5000/api/v1/bids/new_token',
+            url: 'https://bidboard.herokuapp.com/api/v1/bids/new_token',
 
         })
             .then(response => {
@@ -151,7 +151,7 @@ export default class SelectedBillboard extends Component {
         const payment = this.payment()
         axios({
             method: 'post',
-            url: 'http://127.0.0.1:5000/api/v1/bids/new_bid',
+            url: 'https://bidboard.herokuapp.com/api/v1/bids/new_bid',
             headers: {
                 "Content-Type": 'application/json'
             },

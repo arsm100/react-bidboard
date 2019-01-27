@@ -24,7 +24,7 @@ export default class Home extends Component {
     componentDidMount = () => {
         axios({
             method: 'get',
-            url: 'http://127.0.0.1:5000/api/v1/media/me',
+            url: 'https://bidboard.herokuapp.com/api/v1/media/me',
             headers: {
                 'content-type': 'multipart/form-data',
                 'authorization': `Bearer ${localStorage.jwt}`
