@@ -21,7 +21,7 @@
     "react-datepicker": "^2.0.0",
     "react-dom": "^16.7.0",
     "react-dropzone": "^8.0.3",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^6.0.0",
     "react-scripts": "5.0.0",
     "react-vis": "^1.11.5",
     "reactstrap": "^6.5.0"
